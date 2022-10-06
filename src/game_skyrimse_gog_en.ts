@@ -2,15 +2,15 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="en_US">
 <context>
-    <name>GameSkyrimSE</name>
+    <name>GameSkyrimSEGOG</name>
     <message>
         <location filename="gameskyrimsegog.cpp" line="119"/>
-        <source>Skyrim Special Edition Support Plugin</source>
+        <source>Skyrim Special Edition GOG Support Plugin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="gameskyrimsegog.cpp" line="129"/>
-        <source>Adds support for the game Skyrim Special Edition.</source>
+        <source>Adds support for the game Skyrim Special Edition - GOG Edition.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

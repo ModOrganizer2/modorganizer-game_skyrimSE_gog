@@ -136,6 +136,7 @@ MOBase::VersionInfo GameSkyrimSEGOG::version() const
 
 QList<PluginSetting> GameSkyrimSEGOG::settings() const
 {
+    return {};
 }
 
 void GameSkyrimSEGOG::initializeProfile(const QDir &path, ProfileSettings settings) const
@@ -170,7 +171,7 @@ QString GameSkyrimSEGOG::savegameSEExtension() const
 
 std::shared_ptr<const GamebryoSaveGame> GameSkyrimSEGOG::makeSaveGame(QString filePath) const
 {
-  return std::make_shared<const SkyrimSESaveGame>(filePath, this);
+  return std::make_shared<const SkyrimSEGOGSaveGame>(filePath, this);
 }
 
 QString GameSkyrimSEGOG::steamAPPId() const
