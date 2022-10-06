@@ -9,7 +9,7 @@ namespace MOBase { class IPluginGame; }
 class SkyrimSEGOGSaveGame : public GamebryoSaveGame
 {
 public:
-  SkyrimSEGOGSaveGame(QString const &fileName, GameSkyrimSE const *game);
+  SkyrimSEGOGSaveGame(QString const &fileName, GameSkyrimSEGOG const *game);
 
 protected:
 
