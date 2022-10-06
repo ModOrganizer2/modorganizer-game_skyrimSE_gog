@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(game_skyrimse)
+project(game_skyrimse_gog)
 set(project_type plugin)
 set(enable_warnings OFF)
 
