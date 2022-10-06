@@ -1,5 +1,5 @@
-#ifndef _SKYRIMSEDATAARCHIVES_H
-#define _SKYRIMSEDATAARCHIVES_H
+#ifndef _SKYRIMSEGOGDATAARCHIVES_H
+#define _SKYRIMSEGOGDATAARCHIVES_H
 
 #include "gamebryodataarchives.h"
 #include <QStringList>
@@ -8,12 +8,12 @@
 namespace MOBase { class IProfile; }
 
 
-class SkyrimSEDataArchives : public GamebryoDataArchives
+class SkyrimSEGOGDataArchives : public GamebryoDataArchives
 {
 
 public:
 
-  SkyrimSEDataArchives(const QDir &myGamesDir);
+  SkyrimSEGOGDataArchives(const QDir &myGamesDir);
 
 public:
 
@@ -26,4 +26,4 @@ private:
 
 };
 
-#endif // _SKYRIMSEDATAARCHIVES_H
+#endif // _SKYRIMSEGOGDATAARCHIVES_H

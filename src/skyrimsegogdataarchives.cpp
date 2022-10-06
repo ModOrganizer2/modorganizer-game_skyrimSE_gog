@@ -1,13 +1,13 @@
-#include "skyrimSEdataarchives.h"
+#include "skyirmsegogdataarchives.h"
 
 #include "iprofile.h"
 #include <utility.h>
 
-SkyrimSEDataArchives::SkyrimSEDataArchives(const QDir &myGamesDir) :
+SkyrimSEGOGDataArchives::SkyrimSEGOGDataArchives(const QDir &myGamesDir) :
   GamebryoDataArchives(myGamesDir)
 {}
 
-QStringList SkyrimSEDataArchives::vanillaArchives() const
+QStringList SkyrimSEGOGDataArchives::vanillaArchives() const
 {
     return{ "Skyrim - Textures0.bsa"
           , "Skyrim - Textures1.bsa"
@@ -29,7 +29,7 @@ QStringList SkyrimSEDataArchives::vanillaArchives() const
 }
 
 
-QStringList SkyrimSEDataArchives::archives(const MOBase::IProfile *profile) const
+QStringList SkyrimSEGOGDataArchives::archives(const MOBase::IProfile *profile) const
 {
   QStringList result;
 
@@ -40,7 +40,7 @@ QStringList SkyrimSEDataArchives::archives(const MOBase::IProfile *profile) cons
   return result;
 }
 
-void SkyrimSEDataArchives::writeArchiveList(MOBase::IProfile *profile, const QStringList &before)
+void SkyrimSEGOGDataArchives::writeArchiveList(MOBase::IProfile *profile, const QStringList &before)
 {
   QString list = before.join(", ");
 

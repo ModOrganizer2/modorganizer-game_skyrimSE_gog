@@ -1,9 +1,9 @@
-#ifndef SKYRIMSE_MODATACHECKER_H
-#define SKYRIMSE_MODATACHECKER_H
+#ifndef SKYRIMSEGOG_MODATACHECKER_H
+#define SKYRIMSEGOG_MODATACHECKER_H
 
 #include <gamebryomoddatachecker.h>
 
-class SkyrimSEModDataChecker : public GamebryoModDataChecker
+class SkyrimSEGOGModDataChecker : public GamebryoModDataChecker
 {
 public:
   using GamebryoModDataChecker::GamebryoModDataChecker;
@@ -27,4 +27,4 @@ protected:
   }
 };
 
-#endif // SKYRIMSE_MODATACHECKER_H
+#endif // SKYRIMSEGOG_MODATACHECKER_H

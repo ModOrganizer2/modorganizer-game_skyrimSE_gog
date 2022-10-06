@@ -1,15 +1,15 @@
-#ifndef _SKYRIMSESAVEGAME_H
-#define _SKYRIMSESAVEGAME_H
+#ifndef _SKYRIMSEGOGSAVEGAME_H
+#define _SKYRIMSEGOGSAVEGAME_H
 
 #include "gamebryosavegame.h"
-#include "gameskyrimse.h"
+#include "gameskyirmsegog.h"
 
 namespace MOBase { class IPluginGame; }
 
-class SkyrimSESaveGame : public GamebryoSaveGame
+class SkyrimSEGOGSaveGame : public GamebryoSaveGame
 {
 public:
-  SkyrimSESaveGame(QString const &fileName, GameSkyrimSE const *game);
+  SkyrimSEGOGSaveGame(QString const &fileName, GameSkyrimSE const *game);
 
 protected:
 
@@ -26,4 +26,4 @@ protected:
 
 };
 
-#endif // _SKYRIMSESAVEGAME_H
+#endif // _SKYRIMSEGOGSAVEGAME_H

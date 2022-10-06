@@ -1,5 +1,5 @@
-#ifndef _GAMESKYRIMSE_H
-#define _GAMESKYRIMSE_H
+#ifndef _GAMESKYRIMSEGOG_H
+#define _GAMESKYRIMSEGOG_H
 
 
 #include "gamegamebryo.h"
@@ -7,15 +7,15 @@
 #include <QObject>
 #include <QtGlobal>
 
-class GameSkyrimSE : public GameGamebryo
+class GameSkyrimSEGOG : public GameGamebryo
 {
   Q_OBJECT
 
-  Q_PLUGIN_METADATA(IID "com.soundcontactstudio.GameSkyrimSE" FILE "gameskyrimse.json")
+  Q_PLUGIN_METADATA(IID "com.soundcontactstudio.GameSkyrimSEGOG" FILE "gameskyrimsegog.json")
 
 public:
 
-  GameSkyrimSE();
+  GameSkyrimSEGOG();
 
   virtual bool init(MOBase::IOrganizer *moInfo) override;
 
@@ -69,4 +69,4 @@ protected:
 
 };
 
-#endif // _GAMESKYRIMSE_H
+#endif // _GAMESKYRIMSEGOG_H

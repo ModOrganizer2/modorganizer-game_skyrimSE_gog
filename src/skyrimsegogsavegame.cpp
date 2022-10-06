@@ -1,8 +1,8 @@
-#include "skyrimSEsavegame.h"
+#include "skyirmsegogsavegame.h"
 
 #include <Windows.h>
 
-SkyrimSESaveGame::SkyrimSESaveGame(QString const &fileName, GameSkyrimSE const *game) :
+SkyrimSEGOGSaveGame::SkyrimSEGOGSaveGame(QString const &fileName, GameSkyrimSE const *game) :
   GamebryoSaveGame(fileName, game, true)
 {
   FileWrapper file(fileName, "TESV_SAVEGAME"); //10bytes
@@ -30,7 +30,7 @@ SkyrimSESaveGame::SkyrimSESaveGame(QString const &fileName, GameSkyrimSE const *
   setCreationTime(ctime);
 }
 
-void SkyrimSESaveGame::fetchInformationFields(
+void SkyrimSEGOGSaveGame::fetchInformationFields(
   FileWrapper& file,
   unsigned long& version,
   QString& playerName,
@@ -62,7 +62,7 @@ void SkyrimSESaveGame::fetchInformationFields(
   file.read(creationTime); //filetime
 }
 
-std::unique_ptr<GamebryoSaveGame::DataFields> SkyrimSESaveGame::fetchDataFields() const
+std::unique_ptr<GamebryoSaveGame::DataFields> SkyrimSEGOGSaveGame::fetchDataFields() const
 {
   FileWrapper file(getFilepath(), "TESV_SAVEGAME"); //10bytes
 

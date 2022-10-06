@@ -1,14 +1,14 @@
-#include "skyrimSEunmanagedmods.h"
+#include "skyirmsegogunmanagedmods.h"
 
 
-SkyrimSEUnmangedMods::SkyrimSEUnmangedMods(const GameGamebryo *game)
+SkyrimSEGOGUnmangedMods::SkyrimSEGOGUnmangedMods(const GameGamebryo *game)
   : GamebryoUnmangedMods(game)
 {}
 
-SkyrimSEUnmangedMods::~SkyrimSEUnmangedMods()
+SkyrimSEGOGUnmangedMods::~SkyrimSEGOGUnmangedMods()
 {}
 
-QStringList SkyrimSEUnmangedMods::mods(bool onlyOfficial) const {
+QStringList SkyrimSEGOGUnmangedMods::mods(bool onlyOfficial) const {
   QStringList result;
 
   QStringList pluginList = game()->primaryPlugins();

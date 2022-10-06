@@ -5,27 +5,27 @@
 #-------------------------------------------------
 
 
-TARGET = gameSkyrimSE
+TARGET = gameSkyrimSEGOG
 TEMPLATE = lib
 
 CONFIG += plugins
 CONFIG += dll
 
-DEFINES += GAMESKYRIMSE_LIBRARY
+DEFINES += GAMESKYRIMSE_GOG_LIBRARY
 
-SOURCES += gameskyrimse.cpp \
-    skyrimsebsainvalidation.cpp \
-    skyrimsescriptextender.cpp \
-    skyrimsedataarchives.cpp \
-    skyrimsesavegame.cpp \
-    skyrimsesavegameinfo.cpp
+SOURCES += gameskyirmsegog.cpp \
+    skyirmsegogbsainvalidation.cpp \
+    skyirmsegogscriptextender.cpp \
+    skyirmsegogdataarchives.cpp \
+    skyirmsegogsavegame.cpp \
+    skyirmsegogsavegameinfo.cpp
 
-HEADERS += gameskyrimse.h \
-    skyrimsebsainvalidation.h \
-    skyrimsescriptextender.h \
-    skyrimsedataarchives.h \
-    skyrimsesavegame.h \
-    skyrimsesavegameinfo.h
+HEADERS += gameskyirmsegog.h \
+    skyirmsegogbsainvalidation.h \
+    skyirmsegogscriptextender.h \
+    skyirmsegogdataarchives.h \
+    skyirmsegogsavegame.h \
+    skyirmsegogsavegameinfo.h
 
 CONFIG(debug, debug|release) {
   LIBS += -L"$${OUT_PWD}/../gameGamebryo/debug"
