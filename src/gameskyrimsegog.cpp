@@ -1,11 +1,11 @@
-#include "gameskyirmsegog.h"
+#include "gameskyrimsegog.h"
 
-#include "skyirmsegogdataarchives.h"
-#include "skyirmsegogscriptextender.h"
-#include "skyirmsegogunmanagedmods.h"
-#include "skyirmsegogmoddatachecker.h"
-#include "skyirmsegogmoddatacontent.h"
-#include "skyirmsegogsavegame.h"
+#include "skyrimsegogdataarchives.h"
+#include "skyrimsegogscriptextender.h"
+#include "skyrimsegogunmanagedmods.h"
+#include "skyrimsegogmoddatachecker.h"
+#include "skyrimsegogmoddatacontent.h"
+#include "skyrimsegogsavegame.h"
 
 #include <pluginsetting.h>
 #include <executableinfo.h>

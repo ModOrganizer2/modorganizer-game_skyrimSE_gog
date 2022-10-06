@@ -1,4 +1,4 @@
-#include "skyirmsegogdataarchives.h"
+#include "skyrimsegogdataarchives.h"
 
 #include "iprofile.h"
 #include <utility.h>

@@ -13,19 +13,19 @@ CONFIG += dll
 
 DEFINES += GAMESKYRIMSE_GOG_LIBRARY
 
-SOURCES += gameskyirmsegog.cpp \
-    skyirmsegogbsainvalidation.cpp \
-    skyirmsegogscriptextender.cpp \
-    skyirmsegogdataarchives.cpp \
-    skyirmsegogsavegame.cpp \
-    skyirmsegogsavegameinfo.cpp
+SOURCES += gameskyrimsegog.cpp \
+    skyrimsegogbsainvalidation.cpp \
+    skyrimsegogscriptextender.cpp \
+    skyrimsegogdataarchives.cpp \
+    skyrimsegogsavegame.cpp \
+    skyrimsegogsavegameinfo.cpp
 
-HEADERS += gameskyirmsegog.h \
-    skyirmsegogbsainvalidation.h \
-    skyirmsegogscriptextender.h \
-    skyirmsegogdataarchives.h \
-    skyirmsegogsavegame.h \
-    skyirmsegogsavegameinfo.h
+HEADERS += gameskyrimsegog.h \
+    skyrimsegogbsainvalidation.h \
+    skyrimsegogscriptextender.h \
+    skyrimsegogdataarchives.h \
+    skyrimsegogsavegame.h \
+    skyrimsegogsavegameinfo.h
 
 CONFIG(debug, debug|release) {
   LIBS += -L"$${OUT_PWD}/../gameGamebryo/debug"

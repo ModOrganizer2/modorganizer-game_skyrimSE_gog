@@ -2,7 +2,7 @@
 #define _SKYRIMSEGOGSAVEGAME_H
 
 #include "gamebryosavegame.h"
-#include "gameskyirmsegog.h"
+#include "gameskyrimsegog.h"
 
 namespace MOBase { class IPluginGame; }
 

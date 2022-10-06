@@ -1,4 +1,4 @@
-#include "skyirmsegogsavegame.h"
+#include "skyrimsegogsavegame.h"
 
 #include <Windows.h>
 

@@ -1,4 +1,4 @@
-#include "skyirmsegogunmanagedmods.h"
+#include "skyrimsegogunmanagedmods.h"
 
 
 SkyrimSEGOGUnmangedMods::SkyrimSEGOGUnmangedMods(const GameGamebryo *game)
